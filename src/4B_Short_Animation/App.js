@@ -19,7 +19,7 @@ import 'animate.css'
 
 export const Animation = () => {
     return (    
-      <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">          
+      <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="7000">          
        <div className="carousel-inner">
 
         <div className="carousel-item active slide-one">
@@ -33,7 +33,7 @@ export const Animation = () => {
                 Nunc nec risus quis tellus lobortis tempus. Praesent ac ligula ex. Quisque sagittis elementum bibendum.
                 Etiam eu porttitor dolor. Cras sodales odio eu lacus vulputate imperdiet. In eleifend quis metus eleifend.
                   <br /> <br />
-                <button type="button" className="animate__animated animate__jackInTheBox"> Read More </button>    
+                <button type="button" className="animate__animated animate__jackInTheBox animate__delay-5s"> Read More </button>    
                </p>
              </div>
              <div className="col-md-6">
@@ -47,19 +47,19 @@ export const Animation = () => {
                        alt='pic-2' 
                    />
                   <img src={PictureThree}
-                       className='pic-three animate__animated animate__fadeInUp'
+                       className='pic-three animate__animated animate__fadeInUp animate__delay-3s'
                        alt='pic-3'
                    />
                   <img src={PictureFour}
-                       className='pic-four animate__animated animate__fadeInDown'
+                       className='pic-four animate__animated animate__fadeInDown animate__delay-3s'
                        alt='pic-4'
                    />
                   <img src={PictureFive}
-                       className='pic-five animate__animated animate__fadeInRight'
+                       className='pic-five animate__animated animate__fadeInRight animate__delay-4s'
                        alt='pic-5'
                    />
                   <img src={PictureSix}
-                       className='pic-six animate__animated animate__jackInTheBox'
+                       className='pic-six animate__animated animate__jackInTheBox animate__delay-5s'
                        alt='pic-6'
                    />
                </div>  
@@ -68,40 +68,40 @@ export const Animation = () => {
           </div>            
         </div>
 
-        <div className="carousel-item slide-two">
+        <div className="carousel-item slide-two" interval="7000">
         <div className="container">
            <div className="row">
              <div className="col-md-6">
-               <h1 className="animate__animated animate__fadeInLeft"> Learn Graphics Design </h1>  
-               <p className="animate__animated animate__lightSpeedInLeft">
+               <h1 className="animate__animated animate__fadeInLeft animate__delay-1s"> Learn Graphics Design </h1>  
+               <p className="animate__animated animate__lightSpeedInLeft animate__delay-2s">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur mollis, ante in mollis mollis, nisl ante venenatis orci, eget dignissim tortor ex vel nisi.
                 Nunc nec risus quis tellus lobortis tempus. Praesent ac ligula ex. Quisque sagittis elementum bibendum.
                 Etiam eu porttitor dolor. Cras sodales odio eu lacus vulputate imperdiet. In eleifend quis metus eleifend.
                   <br /> <br />
-                <button type="button" className="animate__animated animate__jackInTheBox"> Read More </button>    
+                <button type="button" className="animate__animated animate__jackInTheBox animate__delay-5s"> Read More </button>    
                </p>
              </div>
              <div className="col-md-6">
                <div className="img-box">
                   <img src={ImageOne}
-                       className='img-one animate__animated animate__zoomIn'
+                       className='img-one animate__animated animate__zoomIn animate__delay-1s'
                        alt='img-1'
                     />
                   <img src={ImageTwo} 
-                       className='img-two animate__animated animate__fadeInLeft'
+                       className='img-two animate__animated animate__fadeInLeft animate__delay-4s'
                        alt='img-2'
                     />
                   <img src={ImageThree}
-                       className='img-three animate__animated animate__zoomIn'
+                       className='img-three animate__animated animate__zoomIn animate__delay-3s'
                        alt='img-3'
                     />
                   <img src={ImageFour}
-                       className='img-four animate__animated animate__fadeInDown'
+                       className='img-four animate__animated animate__fadeInDown animate__delay-3s'
                        alt='img-4'
                     />
                   <img src={ImageFive}
-                       className='img-five animate__animated animate__fadeInRight'
+                       className='img-five animate__animated animate__fadeInRight animate__delay-4s'
                        alt='img-5'
                     />
                </div>  
