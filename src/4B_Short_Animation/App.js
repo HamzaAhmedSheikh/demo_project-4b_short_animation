@@ -14,7 +14,7 @@ import ImageThree from './images/img-3.png'
 import ImageFour from './images/img-4.png'
 import ImageFive from './images/img-5.png'
 
-import 'animate.css' 
+import 'animate.css'
 
 
 export const Animation = () => {
@@ -38,12 +38,30 @@ export const Animation = () => {
              </div>
              <div className="col-md-6">
                <div className="img-box">
-                  <img src={PictureOne} className='pic-one' alt='pic-1' />
-                  <img src={PictureTwo} className='pic-two' alt='pic-2' />
-                  <img src={PictureThree} className='pic-three' alt='pic-3' />
-                  <img src={PictureFour} className='pic-four' alt='pic-4' />
-                  <img src={PictureFive} className='pic-five' alt='pic-5' />
-                  <img src={PictureSix} className='pic-six' alt='pic-6' />
+                  <img src={PictureOne}
+                       className='pic-one animate__animated animate__zoomIn'
+                       alt='pic-1'
+                  />
+                  <img src={PictureTwo}
+                       className='pic-two animate__animated animate__fadeInLeft'
+                       alt='pic-2' 
+                   />
+                  <img src={PictureThree}
+                       className='pic-three animate__animated animate__fadeInUp'
+                       alt='pic-3'
+                   />
+                  <img src={PictureFour}
+                       className='pic-four animate__animated animate__fadeInDown'
+                       alt='pic-4'
+                   />
+                  <img src={PictureFive}
+                       className='pic-five animate__animated animate__fadeInRight'
+                       alt='pic-5'
+                   />
+                  <img src={PictureSix}
+                       className='pic-six animate__animated animate__jackInTheBox'
+                       alt='pic-6'
+                   />
                </div>  
              </div>
            </div>
@@ -66,11 +84,11 @@ export const Animation = () => {
              </div>
              <div className="col-md-6">
                <div className="img-box">
-                  <img src={ImageOne} className='img-one' alt='img-1' />
-                  <img src={ImageTwo} className='img-two' alt='img-2' />
-                  <img src={ImageThree} className='img-three' alt='img-3' />
-                  <img src={ImageFour} className='img-four' alt='img-4' />
-                  <img src={ImageFive} className='img-five' alt='img-5' />
+                  <img src={ImageOne} className='img-one animate__animated animate__zoomIn' alt='img-1' />
+                  <img src={ImageTwo} className='img-two animate__animated' alt='img-2' />
+                  <img src={ImageThree} className='img-three animate__animated' alt='img-3' />
+                  <img src={ImageFour} className='img-four animate__animated' alt='img-4' />
+                  <img src={ImageFive} className='img-five animate__animated' alt='img-5' />
                </div>  
              </div>
            </div>
