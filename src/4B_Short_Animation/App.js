@@ -26,8 +26,8 @@ export const Animation = () => {
           <div className="container">
            <div className="row">
              <div className="col-md-6">
-               <h1 className="animate__animated animate__fadeInLeft"> Build A Mobile App </h1>  
-               <p className="animate__animated animate__lightSpeedInLeft">
+               <h1 className="animate__animated animate__fadeInLeft animate__delay-1s" > Build A Mobile App </h1>  
+               <p className="animate__animated animate__lightSpeedInLeft animate__delay-2s">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur mollis, ante in mollis mollis, nisl ante venenatis orci, eget dignissim tortor ex vel nisi.
                 Nunc nec risus quis tellus lobortis tempus. Praesent ac ligula ex. Quisque sagittis elementum bibendum.
@@ -39,11 +39,11 @@ export const Animation = () => {
              <div className="col-md-6">
                <div className="img-box">
                   <img src={PictureOne}
-                       className='pic-one animate__animated animate__zoomIn'
+                       className='pic-one animate__animated animate__zoomIn animate__delay-1s'
                        alt='pic-1'
                   />
                   <img src={PictureTwo}
-                       className='pic-two animate__animated animate__fadeInLeft'
+                       className='pic-two animate__animated animate__fadeInLeft animate__delay-4s'
                        alt='pic-2' 
                    />
                   <img src={PictureThree}
@@ -84,11 +84,26 @@ export const Animation = () => {
              </div>
              <div className="col-md-6">
                <div className="img-box">
-                  <img src={ImageOne} className='img-one animate__animated animate__zoomIn' alt='img-1' />
-                  <img src={ImageTwo} className='img-two animate__animated' alt='img-2' />
-                  <img src={ImageThree} className='img-three animate__animated' alt='img-3' />
-                  <img src={ImageFour} className='img-four animate__animated' alt='img-4' />
-                  <img src={ImageFive} className='img-five animate__animated' alt='img-5' />
+                  <img src={ImageOne}
+                       className='img-one animate__animated animate__zoomIn'
+                       alt='img-1'
+                    />
+                  <img src={ImageTwo} 
+                       className='img-two animate__animated animate__fadeInLeft'
+                       alt='img-2'
+                    />
+                  <img src={ImageThree}
+                       className='img-three animate__animated animate__zoomIn'
+                       alt='img-3'
+                    />
+                  <img src={ImageFour}
+                       className='img-four animate__animated animate__fadeInDown'
+                       alt='img-4'
+                    />
+                  <img src={ImageFive}
+                       className='img-five animate__animated animate__fadeInRight'
+                       alt='img-5'
+                    />
                </div>  
              </div>
            </div>
