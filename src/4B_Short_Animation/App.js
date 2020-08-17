@@ -14,6 +14,8 @@ import ImageThree from './images/img-3.png'
 import ImageFour from './images/img-4.png'
 import ImageFive from './images/img-5.png'
 
+import 'animate.css' 
+
 
 export const Animation = () => {
     return (    
@@ -24,14 +26,14 @@ export const Animation = () => {
           <div className="container">
            <div className="row">
              <div className="col-md-6">
-               <h1> Build A Mobile App </h1>  
-               <p>
+               <h1 className="animate__animated animate__fadeInLeft"> Build A Mobile App </h1>  
+               <p className="animate__animated animate__lightSpeedInLeft">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur mollis, ante in mollis mollis, nisl ante venenatis orci, eget dignissim tortor ex vel nisi.
                 Nunc nec risus quis tellus lobortis tempus. Praesent ac ligula ex. Quisque sagittis elementum bibendum.
                 Etiam eu porttitor dolor. Cras sodales odio eu lacus vulputate imperdiet. In eleifend quis metus eleifend.
                   <br /> <br />
-                <button type="button"> Read More </button>    
+                <button type="button" className="animate__animated animate__jackInTheBox"> Read More </button>    
                </p>
              </div>
              <div className="col-md-6">
@@ -52,14 +54,14 @@ export const Animation = () => {
         <div className="container">
            <div className="row">
              <div className="col-md-6">
-               <h1> Learn Graphics Design </h1>  
-               <p>
+               <h1 className="animate__animated animate__fadeInLeft"> Learn Graphics Design </h1>  
+               <p className="animate__animated animate__lightSpeedInLeft">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Curabitur mollis, ante in mollis mollis, nisl ante venenatis orci, eget dignissim tortor ex vel nisi.
                 Nunc nec risus quis tellus lobortis tempus. Praesent ac ligula ex. Quisque sagittis elementum bibendum.
                 Etiam eu porttitor dolor. Cras sodales odio eu lacus vulputate imperdiet. In eleifend quis metus eleifend.
                   <br /> <br />
-                <button type="button"> Read More </button>    
+                <button type="button" className="animate__animated animate__jackInTheBox"> Read More </button>    
                </p>
              </div>
              <div className="col-md-6">
