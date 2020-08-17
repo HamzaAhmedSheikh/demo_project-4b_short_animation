@@ -45,3 +45,19 @@
     color: #fff;
     font-size: 14px;
 }
+
+.slide-two {
+    background-color: #f7f7f7;
+}
+
+.slide-two h1, .slide-two p {
+    color: #feb154;
+}
+
+.img-one {
+    width: 100%;
+}
+
+.slide-two button {
+    background: linear-gradient(to right, #feb154, #ffd255);
+}

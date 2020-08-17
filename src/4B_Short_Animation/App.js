@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 
 import PictureOne from './images/pic-1.png'
+import ImageOne from './images/img-1.png'
 
 export const Animation = () => {
     return (    
@@ -31,8 +32,27 @@ export const Animation = () => {
           </div>            
         </div>
 
-        <div className="carousel-item">
-          
+        <div className="carousel-item slide-two">
+        <div className="container">
+           <div className="row">
+             <div className="col-md-6">
+               <h1> Learn Graphics Design </h1>  
+               <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur mollis, ante in mollis mollis, nisl ante venenatis orci, eget dignissim tortor ex vel nisi.
+                Nunc nec risus quis tellus lobortis tempus. Praesent ac ligula ex. Quisque sagittis elementum bibendum.
+                Etiam eu porttitor dolor. Cras sodales odio eu lacus vulputate imperdiet. In eleifend quis metus eleifend.
+                  <br /> <br />
+                <button type="button"> Read More </button>    
+               </p>
+             </div>
+             <div className="col-md-6">
+               <div className="img-box">
+                  <img src={ImageOne} className='img-one' alt='img1' />
+               </div>  
+             </div>
+           </div>
+          </div>            
         </div>
         
       </div>
