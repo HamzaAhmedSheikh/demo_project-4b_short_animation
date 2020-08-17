@@ -94,6 +94,34 @@
     width: 100%;
 }
 
+.img-two {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+.img-three {
+    width: 70px;
+    position: absolute;
+    left: 245px;
+    bottom: 55px;
+}
+
+.img-four {
+    width: 60px;
+    position: absolute;
+    right: 155px;
+    bottom: 95px;
+}
+
+.img-five {
+    width: 100px;
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+
 .slide-two button {
     background: linear-gradient(to right, #feb154, #ffd255);
 }

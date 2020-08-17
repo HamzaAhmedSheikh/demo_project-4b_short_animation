@@ -8,8 +8,12 @@ import PictureFour from './images/pic-4.png'
 import PictureFive from './images/pic-5.png'
 import PictureSix from './images/pic-6.png'
 
-
 import ImageOne from './images/img-1.png'
+import ImageTwo from './images/img-2.png'
+import ImageThree from './images/img-3.png'
+import ImageFour from './images/img-4.png'
+import ImageFive from './images/img-5.png'
+
 
 export const Animation = () => {
     return (    
@@ -60,7 +64,11 @@ export const Animation = () => {
              </div>
              <div className="col-md-6">
                <div className="img-box">
-                  <img src={ImageOne} className='img-one' alt='img1' />
+                  <img src={ImageOne} className='img-one' alt='img-1' />
+                  <img src={ImageTwo} className='img-two' alt='img-2' />
+                  <img src={ImageThree} className='img-three' alt='img-3' />
+                  <img src={ImageFour} className='img-four' alt='img-4' />
+                  <img src={ImageFive} className='img-five' alt='img-5' />
                </div>  
              </div>
            </div>
