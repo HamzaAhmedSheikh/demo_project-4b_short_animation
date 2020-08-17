@@ -2,6 +2,13 @@ import React from 'react'
 import './style.css'
 
 import PictureOne from './images/pic-1.png'
+import PictureTwo from './images/pic-2.png'
+import PictureThree from './images/pic-3.png'
+import PictureFour from './images/pic-4.png'
+import PictureFive from './images/pic-5.png'
+import PictureSix from './images/pic-6.png'
+
+
 import ImageOne from './images/img-1.png'
 
 export const Animation = () => {
@@ -25,7 +32,12 @@ export const Animation = () => {
              </div>
              <div className="col-md-6">
                <div className="img-box">
-                  <img src={PictureOne} className='pic-one' alt='pic1' />
+                  <img src={PictureOne} className='pic-one' alt='pic-1' />
+                  <img src={PictureTwo} className='pic-two' alt='pic-2' />
+                  <img src={PictureThree} className='pic-three' alt='pic-3' />
+                  <img src={PictureFour} className='pic-four' alt='pic-4' />
+                  <img src={PictureFive} className='pic-five' alt='pic-5' />
+                  <img src={PictureSix} className='pic-six' alt='pic-6' />
                </div>  
              </div>
            </div>

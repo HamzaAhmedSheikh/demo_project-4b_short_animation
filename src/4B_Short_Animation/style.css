@@ -10,10 +10,46 @@
 
 .img-box {
     width: 550px;
+    position: relative;
 }
 
 .pic-one {
     width: 100%;
+}
+
+.pic-two {
+    width: 100px;
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+}
+
+.pic-three {
+    width: 75px;
+    position: absolute;
+    left: 150px;
+    bottom: 70px;
+}
+
+.pic-four {
+    width: 160px;
+    position: absolute;
+    right: 40px;
+    top: 110px;
+}
+
+.pic-five {
+    width: 110px;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+
+.pic-six {
+    width: 160px;
+    position: absolute;
+    right: 160px;
+    bottom: 35px;
 }
 
 .slide-one {
