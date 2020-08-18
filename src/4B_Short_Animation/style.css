@@ -63,13 +63,13 @@
 .carousel-item h1 {
     margin-top: 40px;
     font-weight: bold;
-    color: white;
+    color: #0c5ce3;
 }
 
 .carousel-item p {
     margin: 30px 0 50px;
     font-size: 14px;
-    color: #fff;
+    color: #0c4fc4de;
 }
 
 .carousel-item button {
@@ -87,7 +87,7 @@
 }
 
 .slide-two h1, .slide-two p {
-    color: #feb154;    
+    color: #ee870af1;    
 }
 
 .img-one {

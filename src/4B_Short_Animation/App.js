@@ -28,11 +28,11 @@ export const Animation = () => {
       },
 
       timing: {
-        delay: 400, // Start with a 500ms delay
-        duration: 1000, // Run for 1000ms
+        delay: 400, 
+        duration: 1000, 
         iterations: Infinity,
-        direction: "alternate", // Run the animation forwards and then backwards
-        easing: "ease-in-out", // Use a fancy timing function
+        direction: "alternate", 
+        easing: "ease-in-out", 
       }
  
   })
