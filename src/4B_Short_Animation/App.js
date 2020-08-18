@@ -42,7 +42,7 @@ export const Animation = () => {
       <div>
         <nav className="navbar navbar-expand-lg navbar-light fixed-top">
           <div className="container">
-           <a className="navbar-brand" href="http://short_animation.surge.sh/" ref={ref}> Short Animation </a>
+           <a className="navbar-brand" href="http://short_animation.surge.sh/" ref={ref}> Project 4B </a>
            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
          </button>
