@@ -78,7 +78,7 @@ export const Animation = () => {
              <div className="col-md-6">
                <h1 className="animate__animated animate__fadeInLeft animate__delay-1s" > Build A Mobile App </h1>  
                <p className="animate__animated animate__lightSpeedInLeft animate__delay-2s">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet.
                 Curabitur mollis, ante in mollis mollis, nisl ante venenatis orci, eget dignissim tortor ex vel nisi.
                 Nunc nec risus quis tellus lobortis tempus. Praesent ac ligula ex. Quisque sagittis elementum bibendum.
                 Etiam eu porttitor dolor. Cras sodales odio eu lacus vulputate imperdiet. In eleifend quis metus eleifend.
