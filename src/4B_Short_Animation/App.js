@@ -16,7 +16,7 @@ import ImageThree from './images/img-3.png'
 import ImageFour from './images/img-4.png'
 import ImageFive from './images/img-5.png'
 
-import 'animate.css'
+import 'animate.css' // for animation
 
 
 export const Animation = () => {
