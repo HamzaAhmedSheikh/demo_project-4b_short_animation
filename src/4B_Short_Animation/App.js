@@ -1,6 +1,8 @@
 import React from 'react'
 import './style.css'
 
+import useWebAnimations from "@wellyshen/use-web-animations";
+
 import PictureOne from './images/pic-1.png'
 import PictureTwo from './images/pic-2.png'
 import PictureThree from './images/pic-3.png'
@@ -18,11 +20,32 @@ import 'animate.css'
 
 
 export const Animation = () => {
+  
+
+  const { ref } = useWebAnimations({          
+      keyframes: {
+        transform: ["translate(0, 0)"], 
+        transform: ["translateX(300px)"], 
+        transform: ["translateX(300px)"], 
+        background: ["skyblue", "crimson", "green"], // Go through three colors
+      },
+
+      timing: {
+        delay: 400, // Start with a 500ms delay
+        duration: 1000, // Run for 1000ms
+        iterations: Infinity,
+        direction: "alternate", // Run the animation forwards and then backwards
+        easing: "ease-in-out", // Use a fancy timing function
+      }
+ 
+  })
+
+
     return (    
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
           <div className="container">
-           <a className="navbar-brand" href="http://short_animation.surge.sh/"> Short Animation </a>
+           <a className="navbar-brand" href="http://short_animation.surge.sh/" ref={ref}> Short Animation </a>
            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
          </button>
