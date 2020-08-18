@@ -19,6 +19,45 @@ import 'animate.css'
 
 export const Animation = () => {
     return (    
+      <div>
+        <nav className="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+          <div className="container">
+           <a className="navbar-brand" href="http://short_animation.surge.sh/"> Short Animation </a>
+           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+         </button>
+
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item active">
+                <a className="nav-link" href="http://short_animation.surge.sh/"> Home </a>
+             </li>
+             <li className="nav-item">
+                <a className="nav-link" href="http://short_animation.surge.sh/"> About us </a>
+             </li>
+             <li className="nav-item">
+                <a className="nav-link" href="http://short_animation.surge.sh/"> Portfolio </a>
+             </li>  
+             <li className="nav-item">
+                <a className="nav-link" href="http://short_animation.surge.sh/"> Services </a>
+             </li> 
+             <li className="nav-item">
+                <a className="nav-link" href="http://short_animation.surge.sh/"> Contact us </a>
+             </li>     
+         </ul>
+        </div>               
+       </div>
+     </nav>
+
+
+
+
+
+
+
+
+
+
       <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="7000">          
        <div className="carousel-inner">
 
@@ -122,7 +161,7 @@ export const Animation = () => {
        <span className="sr-only">Next</span>
      </a>
     </div>
-      
+    </div>  
     )
 }
 
