@@ -24,10 +24,7 @@ export const Animation = () => {
 
   const { ref } = useWebAnimations({          
       keyframes: {
-        transform: ["translate(0, 0)"], 
-        transform: ["translateX(300px)"], 
-        transform: ["translateX(300px)"], 
-        background: ["skyblue", "crimson", "green"], // Go through three colors
+          transform: ["translate(50px)"],             
       },
 
       timing: {
@@ -43,7 +40,7 @@ export const Animation = () => {
 
     return (    
       <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
           <div className="container">
            <a className="navbar-brand" href="http://short_animation.surge.sh/" ref={ref}> Short Animation </a>
            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,34 +49,25 @@ export const Animation = () => {
 
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item active">
+              <li className="nav-item active animate__animated animate__swing animate__delay-1s">
                 <a className="nav-link" href="http://short_animation.surge.sh/"> Home </a>
              </li>
-             <li className="nav-item">
+             <li className="nav-item animate__animated animate__swing animate__delay-2s">
                 <a className="nav-link" href="http://short_animation.surge.sh/"> About us </a>
              </li>
-             <li className="nav-item">
+             <li className="nav-item animate__animated animate__swing animate__delay-3s">
                 <a className="nav-link" href="http://short_animation.surge.sh/"> Portfolio </a>
              </li>  
-             <li className="nav-item">
+             <li className="nav-item animate__animated animate__swing animate__delay-4s">
                 <a className="nav-link" href="http://short_animation.surge.sh/"> Services </a>
              </li> 
-             <li className="nav-item">
+             <li className="nav-item animate__animated animate__swing animate__delay-5s">
                 <a className="nav-link" href="http://short_animation.surge.sh/"> Contact us </a>
              </li>     
          </ul>
         </div>               
        </div>
      </nav>
-
-
-
-
-
-
-
-
-
 
       <div id="carouselExampleControls" className="carousel slide" data-ride="carousel" data-interval="7000">          
        <div className="carousel-inner">
@@ -130,7 +118,7 @@ export const Animation = () => {
           </div>            
         </div>
 
-        <div className="carousel-item slide-two" interval="7000">
+        <div className="carousel-item slide-two">
         <div className="container">
            <div className="row">
              <div className="col-md-6">
@@ -183,9 +171,9 @@ export const Animation = () => {
        <span className="carousel-control-next-icon" aria-hidden="true"></span>
        <span className="sr-only">Next</span>
      </a>
-    </div>
-    </div>  
-    )
+    </div>       
+  </div>  
+ )
 }
 
 

@@ -126,6 +126,10 @@
     background: linear-gradient(to right, #feb154, #ffd255);
 }
 
+.navbar {
+    background-color: crimson !important;
+}
+
 .navbar-nav a {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
